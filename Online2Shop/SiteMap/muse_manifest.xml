@@ -1,0 +1,18 @@
+<manifest alg="2" build="329" opt="false" iceEnabled="true">
+  <folder name="css">
+    <file name="site_global.css" crc="417434784"/>
+    <file name="master_a-master.css" crc="486146713" ref="index"/>
+    <file name="index.css" crc="165324675" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="3828297711" ref="index"/>
+    <file name="museutils.js" crc="117816282" ref="index"/>
+    <file name="jquery.tobrowserwidth.js" crc="152985095" ref="index"/>
+    <file name="jquery.watch.js" crc="4199601726" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="fresh_snow.jpg" crc="519940214" ref="index"/>
+    <file name="logo with everything you want.png" crc="3973342940" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4041085372" mt="1385560307981" redirect="true"/>
+</manifest>

@@ -1,0 +1,137 @@
+.html
+{
+	background: #7F7F7F url("../images/fresh_snow.jpg") repeat left top scroll;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 909px;
+	border-style: none;
+	border-color: #000000;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF url("../images/fresh_snow.jpg") repeat left top;
+}
+
+#u75-5
+{
+	z-index: 2;
+	width: 157px;
+	min-height: 45px;
+	margin-right: -10000px;
+	margin-top: 258px;
+	left: 16px;
+}
+
+#u77-5
+{
+	z-index: 7;
+	width: 157px;
+	min-height: 45px;
+	margin-right: -10000px;
+	margin-top: 359px;
+	left: 16px;
+}
+
+#u78-17
+{
+	z-index: 12;
+	width: 152px;
+	min-height: 152px;
+	margin-right: -10000px;
+	margin-top: 364px;
+	left: 182px;
+}
+
+#u79-63
+{
+	z-index: 29;
+	width: 305px;
+	min-height: 152px;
+	margin-right: -10000px;
+	margin-top: 359px;
+	left: 413px;
+}
+
+#u80-31
+{
+	z-index: 92;
+	width: 339px;
+	min-height: 152px;
+	margin-right: -10000px;
+	margin-top: 359px;
+	left: 725px;
+}
+
+#u93
+{
+	z-index: 123;
+	width: 1160px;
+	height: 282px;
+	margin-right: -10000px;
+	margin-top: -36px;
+	left: -100px;
+}
+
+#u94
+{
+	z-index: 124;
+	width: 1160px;
+	height: 87px;
+	margin-right: -10000px;
+	margin-top: 860px;
+	left: -100px;
+}
+
+#u81-37
+{
+	z-index: 125;
+	width: 243px;
+	min-height: 293px;
+	margin-right: -10000px;
+	margin-top: 592px;
+	left: 725px;
+}
+
+#u82-41
+{
+	z-index: 162;
+	width: 192px;
+	min-height: 275px;
+	margin-right: -10000px;
+	margin-top: 550px;
+	left: 182px;
+}
+
+#u83-6
+{
+	z-index: 203;
+	width: 198px;
+	min-height: 41px;
+	margin-right: -10000px;
+	margin-top: 260px;
+	left: 182px;
+}
+
+#u69
+{
+	z-index: 209;
+	width: 502px;
+	margin-right: -10000px;
+	margin-top: 26px;
+	left: 253px;
+}
+
+body
+{
+	padding-top: 36px;
+	padding-bottom: 2px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

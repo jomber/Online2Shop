@@ -1,0 +1,718 @@
+﻿body {
+	font-size: 10.5pt; 
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:21px;
+	text-align:left;
+}
+
+#header {
+    width: 56em;
+    margin: 1em auto;
+    position: relative;
+    padding: 1em 2em 0.5em 2em;
+}
+
+#logo {
+    width: 28em;
+}
+
+#search {
+    position: absolute;
+    right: 2em;
+    bottom: 0.5em;
+    width: 16em;
+}
+
+#mainMenuWrapper {
+    width: 60em;
+    height: 3em;
+    margin: 1em auto;
+}
+
+#mainBody {
+    width: 60em;
+    margin: -0.7em auto 1em auto;
+    padding-top: 1em;
+    /*background: #E1DFFF;*/
+    background: url(../images/fresh_snow.png) repeat;
+}
+
+#bannerWrapper {
+    overflow: hidden;
+    position: relative;
+    height: 17.449em;
+    width: 56em;
+    margin: 1em auto;
+    background-image: url("../images/banner2.jpg");
+    background-size: 56em 17.449em;
+    border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+}
+
+#banner {
+    position: absolute;
+    height: 17.45em;
+    width: 56em;
+}
+
+#loginButtons {
+    width:10em;
+    /*height: 2em;*/
+    float: left;
+}
+
+#adminDiv {
+    float: left;
+    width: 6em;
+    display: block;
+}
+
+#homeNews1, #homeNews2, #homeNews3 {
+    width: 56.1em;
+    margin-top: 1.0em;
+    margin-bottom: 2.0em;
+}
+
+.inputRegister {
+    width: 11em;
+}
+
+.imgHome {
+    width: 18.5em;
+    margin: -0.14em;
+}
+
+#mailingListWrapper {
+    background: #FFD198;
+	background: -moz-linear-gradient(top, #FFD198, #FFEFDF);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF5F00), to(#FFAB41));
+	border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+    text-shadow: -1px 2px 10px #FFF;
+    display: block;
+    text-align: center;
+    margin: 0.5em auto;
+    width: 27em;
+    font-weight: bold;
+    height: 1.8em;
+    padding-top: 0.3em;
+    cursor: pointer;
+}
+
+#mailingListWrapper:hover {
+    text-shadow: -1px 2px 10px #6496FF;
+    background: #FFEABE;
+}
+
+#overlayLayer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: none;
+    z-index: 1000;
+    cursor: default;
+}
+
+#overlayLayerInvisible {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1000;
+    cursor: default;
+}
+
+#imgContacts, #imgFAQ {
+    margin-left: 10em;
+}
+
+.pTitle {
+    font-size: 1.5em;
+}
+
+.pHome, .pHomeSmall, .pClosed {
+    font-size: 1.5em;
+    text-shadow: -1px 2px 10px #FFF;
+    font-weight: bold;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+    width: 33em;
+}
+
+.pClosed {
+    width: 100%;
+    margin-left: 0em;
+    margin-right: 0em;
+    font-size: 1.7em;
+}
+
+.pHomeSmall {
+    font-size: 1em;
+    margin-left: 11em;
+}
+
+#contactDiv, #faq, #transactionClosedDiv {
+    top: 10em;
+    left: 25%;
+    background: #FFAB41;
+	background: -moz-linear-gradient(top, #FFAB41, #FFD9B0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFAB41), to(#FFD9B0));
+	border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+    text-shadow: -1px 2px 10px #FFF;
+    display: block;
+    text-align: justify;
+    margin: 0 auto;
+    width: 60%;
+    font-weight: bold;
+    height: 28em;
+    padding-top: 3em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    z-index: 10000;
+}
+
+#faq {
+    height: 57em;
+    width: 70%;
+}
+
+#popupMailing, #loginDiv, #registerDiv, prova {
+    position: fixed;
+    top: 10em;
+    left: 25%;
+    background: #FFAB41;
+	background: -moz-linear-gradient(top, #FFAB41, #FFD9B0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFAB41), to(#FFD9B0));
+	border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+    text-shadow: -1px 2px 10px #FFF;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    font-weight: bold;
+    height: 28em;
+    padding-top: 1em;
+    z-index: 10000;
+    display: none;
+}
+
+#popupImages {
+    position: fixed;
+    top: 8em;
+    left: 25%;
+    background-color: white;
+	border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+    text-shadow: -1px 2px 10px #FFF;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    font-weight: bold;
+    height: 28em;
+    padding-top: 3em;
+    z-index: 10000;
+    display: none;
+}
+
+#popupImagesInternal {
+    width: 35em;
+    height: 24.643em;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+
+#loginDiv {
+    width: 30em;
+    left: 35%;
+    height: 20em;
+}
+
+
+#Login1_LoginButton, #Login1_registerButton {
+    width: 5em;
+}
+
+#Login1_RememberMe {
+    float: left;
+    margin-left: 9em;
+}
+
+#registerDiv {
+    height: 25em;
+    width: 30em;
+    left: 35%;
+    padding-left: 4em;
+}
+
+.mailingLogo {
+    width: 40%;
+}
+
+#mailingForm {
+    width: 19em;
+    height: 13.5em;
+    position: relative;
+    margin: 0 auto;
+}
+
+#mailingForm p, #mailingForm input {
+    margin: 0;
+} 
+
+#mailingForm #mailingNameLabel {
+    position: absolute;
+    top: 1em;
+    left: 0em;
+}
+
+#mailingForm #mailingName {
+    position: absolute;
+    top: 1em;
+    left: 11em;
+}
+
+#mailingForm #nameValidatorLabel {
+    position: absolute;
+    top: 1em;
+    left: 21.5em;
+}
+
+#mailingForm #mailingPasswordLabel {
+    position: absolute;
+    top: 3em;
+    left: 0em;
+}
+
+#mailingForm #mailingPassword {
+    position: absolute;
+    top: 3em;
+    left: 11em;
+}
+
+#mailingForm #passwordValidatorLabel {
+    position: absolute;
+    top: 3em;
+    left: 21.5em;
+}
+
+#mailingForm #mailingConfirmPasswordLabel {
+    position: absolute;
+    top: 5em;
+    left: 0em;
+}
+
+#mailingForm #mailingConfirmPassword {
+    position: absolute;
+    top: 5em;
+    left: 11em;
+}
+
+#mailingForm #confirmValidatorLabel {
+    position: absolute;
+    top: 5em;
+    left: 21.5em;
+}
+
+#mailingForm #mailingEmailLabel {
+    position: absolute;
+    top: 7em;
+    left: 0em;
+}
+
+#mailingForm #mailingEmail {
+    position: absolute;
+    top: 7em;
+    left: 11em;
+}
+
+#mailingForm #mailValidatorLabel {
+    position: absolute;
+    top: 7em;
+    left: 21.5em;
+}
+
+#mailingForm #mailingPostcodeLabel {
+    position: absolute;
+    top: 9em;
+    left: 0em;
+}
+
+#mailingForm #mailingPostcode {
+    position: absolute;
+    top: 9em;
+    left: 11em;
+}
+
+#mailingForm #postcodeValidatorLabel {
+    position: absolute;
+    top: 9em;
+    left: 21.5em;
+}
+
+span#validationText {
+    width: 20em;
+    display: block;
+}
+
+#mailingButtons {
+    position: absolute;
+    bottom: 1em;
+    margin: 0 auto;
+    margin-left: 9.8em;
+    top: 11em;
+}
+
+#mailingLogin, #mailingSubmit {
+    width: 5em;
+}
+
+
+#mailingForm #mailingSubmit {
+    /*position: absolute;
+    bottom: 1em;
+    margin: 0 auto;*/
+}
+
+#itemDetailPayButton {
+    margin-left: 28%;
+}
+
+#footer {
+    position: relative;
+    bottom: 0.1em;
+    height: 2.5em;
+    width: 35em;
+    margin: 1em auto;   	
+	background: #FFAB41;
+	background: -moz-linear-gradient(top, #FFAB41, #FFD9B0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF5F00), to(#FFAB41));
+	border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+    position: relative;
+    padding: 0 2em 0 2em;
+}
+
+#footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    text-shadow: -1px 2px 10px #FFF;
+    height: inherit;
+    width: 6em;
+	float: left;
+	display: block;
+	text-align: center;
+    border-left: 0px solid black;
+    padding: 0.5em 1em 0 1em;
+    height: 2em;
+}
+
+#footer > a:last-of-type {
+    border-right: 0px solid black;
+}
+
+#footer a:hover {
+    background: #FFEABE;
+    text-shadow: -1px 2px 10px #FC8325;
+}
+
+#footer #creator {
+    position: absolute;
+    right: 2em;
+    bottom: 0.3em;
+    font-style: italic;
+    font-size: smaller;
+}
+
+#homeWrapper {
+    width: 60em;
+    margin: 1em auto;
+    padding: 0 2em 0 2em;
+}
+
+#itemsWrapper, #MasterPage_itemsWrapper {
+    width: 56em;
+    margin: 1em auto;
+    padding: 0em 2em 1em 2em;
+}
+
+#location {
+    font-weight: bold;
+    font-size: large;
+}
+
+.itemsRow {
+    margin-bottom: 2em;
+}
+
+.itemBox {
+    width: 13em;
+    display: inline-block;
+    margin-right: 0.4em;
+    margin-left: 0.4em;
+    background-color: white;
+    text-align: center;
+    border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+}
+
+.imgItemBox {
+     width: 13em; 
+     height: 7.3125em;
+}
+
+.itemBox a {
+    color: black;    
+    text-shadow: -1px 2px 10px #FC8325;
+}
+
+.itemBox a:hover {
+    color: black;    
+    text-shadow: -1px 2px 10px #6496FF;
+}
+.loginBeforePaypal {
+    background: #FFD198;
+	background: -moz-linear-gradient(top, #FFD198, #FFEFDF);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFD198), to(#FFEFDF));
+	border: 1px solid #002232;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginBeforePaypalID {
+    margin-left: 29%;
+}
+
+.price {
+    background: #FFD198;
+	background: -moz-linear-gradient(top, #FFD198, #FFEFDF);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFD198), to(#FFEFDF));
+	border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+    text-shadow: -1px 2px 10px #FFF;
+    display: block;
+    text-align: center;
+    margin: 0.5em auto;
+    width: 7em;
+    font-weight: bold;
+}
+
+.buyAction input {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #005B9C;
+}
+
+
+/* Details items*/
+
+#wrapperItemDetails {
+    width: 56em;
+    margin: 1em auto;
+    padding: 0 2em 0 2em;
+}
+
+#itemName {
+    color: black;    
+    text-shadow: -1px 2px 10px #FC8325;
+    font-weight: bold;
+    font-size: large;
+}
+
+.itemName {
+    color: black;
+}
+
+#imgDetails {
+    width: 35em;
+    height: 24.643em;
+    float: left;
+    display: block;
+    border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+}
+
+#descriptionDetails {
+    width: 19em;
+    min-height: 23.643em;
+    margin-left: 36em;
+    padding: 1em 0 0 1em;
+    position: relative;
+    background: white;
+    border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;    
+}
+
+.description {
+    text-shadow: -1px 2px 10px #FC8325;  
+    font-weight: bold;
+    font-size: large;
+    margin: 0 0 0.5em 0;
+}
+
+.labelDescription {
+    text-align: justify;
+    margin-top: 0;
+    margin-right: 1em;
+}
+
+.labelPrice {
+    background: #FFD198;
+    background: -moz-linear-gradient(top, #FFD198, #FFEFDF);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFD198), to(#FFEFDF));
+    border: 1px solid #002232;
+    -moz-box-shadow: -1px 1px 5px #8D8D8D;
+    -webkit-box-shadow: -1px 1px 5px #8D8D8D;
+    box-shadow: -1px 1px 5px #8D8D8D;
+    text-shadow: -1px 2px 10px #FFF;
+    display: block;
+    text-align: center;
+    margin: 1em auto 2em auto;
+    width: 7em;
+    font-weight: bold;
+}
+
+.quantityLabel {
+    width: 5em;
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+    margin: 0;
+}
+
+.quantityText {
+    width: 2.3em;
+    position: absolute;
+    left: 6em;
+    bottom: 1em;
+    text-align: center;
+}
+
+#MasterPage_buttonBuy {
+    display: block;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+#otherImagesDetails {
+    width: 56em;
+    clear: both;    
+    margin-top: 1em;
+}
+
+.smallImgDetails {
+    height: 10em;
+    width: 14.203em;
+    border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;  
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+/* Details Cart*/
+
+#messageCart {
+    min-height: 100px;
+    width: 60em;
+    background-color: yellow;
+    margin: 1em auto;
+}
+
+#headItemsCart {
+    min-height: 30px;
+    width: 60em;
+    background-color: dimgray;
+    margin: 1em auto;
+}
+
+.bodyItemsCart {
+    min-height: 9em;
+    width: 60em;
+    background-color: red;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.deliveryItemsCart {
+    min-height: 150px;
+    width: 60em;
+    background-color: violet;
+    margin: 1em auto;
+}
+
+.itemDetailsCart {
+    min-height: 9em;
+    width: 22.2em;
+    background-color: blue;
+    margin: 1em auto;
+    float: left;
+}
+
+.priceDetailsCart {
+    min-height: 9em;
+    width: 9em;
+    background-color: yellow;
+    margin: 1em auto;
+    float: left;
+}
+
+.quantityDetailsCart {
+    min-height: 9em;
+    width: 9em;
+    background-color: blue;
+    margin: 1em auto;
+    float: left;
+}
+
+.subTotalDetailsCart {
+    min-height: 9em;
+    width: 9em;
+    background-color: yellow;
+    margin: 1em auto;
+    float: left;
+}
+
+.deleteOrderCart {
+    min-height: 9em;
+    width: 50px;
+    background-color: green;
+    margin: 1em auto;
+    float: left;
+}

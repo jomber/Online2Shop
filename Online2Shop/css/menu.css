@@ -1,0 +1,122 @@
+ul, li {
+	font-size: 10.5pt; 
+}
+
+#mainMenu {
+	height: 3em;
+    padding: 0 2em 0 2em;
+    margin: 0; 	
+	background: #FFAB41;
+	background: -moz-linear-gradient(top, #FFD9B0, #FFAB41);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF5F00), to(#FFAB41));
+	border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;
+}
+
+#mainMenu > li {
+    height: inherit;
+    width: 13.8em;
+	float: left;
+	display: block;
+	text-align: center;
+	position: relative;
+    border-left: 0px solid black;
+}
+
+#mainMenu > li:last-of-type {
+    border-right: 0px solid black;
+}
+
+#mainMenu li:hover {	
+	background: #FFAB41;
+}
+
+#mainMenu li a {
+    height: 1.8em;
+    padding: 0.7em 0.5em 0.5em 0.5em;
+    width: 12.8em;
+	display: block;
+    text-decoration:none;
+    font-weight: bold;
+    color: black;
+    text-shadow: -1px 2px 10px #FFF;
+}
+
+#mainMenu li:hover > a {
+	text-shadow: -1px 2px 10px #FC8325;
+}
+
+#mainMenu > li #viewCartSubmit {
+    height: 2.2em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    width: 13.5em;
+	display: block;
+    text-decoration:none;
+    font-weight: bold;
+    color: black;
+    text-shadow: -1px 2px 10px #FFF;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    box-sizing: inherit;
+}
+
+#mainMenu > li #viewCartSubmit:hover {
+	text-shadow: -1px 2px 10px #FC8325;
+}
+
+#mainMenu li ul.subsections {
+    padding: 0px;
+    margin: 0px;
+    width: 13.8em;
+    position: relative;
+    left: -0.05em;
+    visibility: hidden;
+	background: #FFD9B0;
+	background: -moz-linear-gradient(top, #FFAB41, #FFD9B0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFAB41), to(#FFD9B0));
+	border: 0px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;
+    z-index: 666;
+}
+
+#mainMenu li:hover ul.subsections {
+    visibility: visible;
+}
+
+#mainMenu li ul.subsections li {
+    float: none;
+    height: 3em;
+    width: 13.8em;
+	display: block;
+	text-align: left;
+	position: relative;
+    border-bottom: 0px solid rgba(0, 0, 0, 0.43);
+    overflow: visible;
+}
+
+#mainMenu li ul.subsections li ul.subsubsections {
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    width: 13.8em;
+    position: relative;
+    left: 13.8em;
+    top: -3.1em;
+    visibility: hidden;	
+	background: #FFD9B0;
+	background: -moz-linear-gradient(top, #FFAB41, #FFD9B0);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFAB41), to(#FFD9B0));
+	border: 1px solid #002232;
+	-moz-box-shadow: -1px 1px 5px #8D8D8D;
+	-webkit-box-shadow: -1px 1px 5px #8D8D8D;
+	box-shadow: -1px 1px 5px #8D8D8D;
+}
+
+#mainMenu li:hover ul.subsections li:hover ul.subsubsections {
+    visibility: visible;
+}
